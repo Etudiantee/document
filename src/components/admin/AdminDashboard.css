@@ -1,0 +1,80 @@
+/* AdminDashboard.css */
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-nav .nav-item {
+  display: flex;
+}
+
+.navbar-nav .nav-item:first-child {
+  margin-right: auto; /* Push to the left */
+}
+
+.navbar-nav .nav-item:last-child {
+  margin-left: auto; /* Push to the right */
+}
+
+.centered-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Adjusted spacing between centered buttons */
+.centered-buttons button {
+  margin: 0 10px; /* Add margin to each button */
+}
+
+.navbar-nav button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 16px;
+}
+
+.navbar-nav button p {
+  margin: 0;
+  color: white;
+}
+
+.navbar-nav button svg {
+  color: white;
+  width: 15px;
+  transition: transform 0.2s;
+}
+
+.navbar-nav button:hover svg {
+  transform: translateX(4px);
+  color: #c84747; /* Hover color */
+}
+
+.navbar-nav button:hover p {
+  color: #c84747; /* Hover color */
+}
+
+body {
+  margin: 0; /* Remove space at the top */
+}
+
+.navbar-nav button:hover {
+  box-shadow: 0px 0px 10px 0px rgba(231, 227, 227, 0.921); /* Adding shadow on hover */
+}
+.image1 {
+ 
+  width: 180px; /* Adjust width as needed */
+  height: auto;
+ /* Adjust the alpha (opacity) value as needed */
+  padding: 10px; /* Adjust padding as needed */
+
+} 
+.lefttt {
+  text-align: left;
+}

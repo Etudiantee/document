@@ -1,0 +1,158 @@
+.container {
+  margin-top: 20px;
+  
+}
+
+body{
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right: 0;
+  
+}
+ .bob1 {
+  background-image: url("C:/Users/hajja/projet1/public/im4.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  
+ 
+
+}
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ui-input-container {
+  position: relative;
+  width: 100%; /* Adjust to 100% for responsiveness */
+  margin-bottom: 20px;
+}
+
+.ui-input {
+  width: 100%;
+  padding: 10px 10px 10px 40px;
+  font-size: 1em;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+  background-color: white;
+  transition: border-color 0.3s;
+  border-radius: 15px;
+}
+
+.ui-input:focus {
+  border-color: #6c63ff;
+}
+
+.ui-input-underline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #6c63ff;
+  transform: scaleX(0);
+  transition: transform 0.3s;
+}
+
+.ui-input:focus + .ui-input-underline {
+  transform: scaleX(1);
+}
+
+.ui-input-highlight {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background-color: rgba(108, 99, 255, 0.1);
+  transition: width 0.3s;
+}
+
+.ui-input:focus ~ .ui-input-highlight {
+  width: 100%;
+}
+
+.ui-input-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999;
+  transition: color 0.3s;
+}
+
+.ui-input:focus ~ .ui-input-icon {
+  color: #6c63ff;
+}
+
+.ui-input-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.table-container {
+  margin-top: 20px;
+  overflow: hidden;
+  border-radius: 10px; /* Add border radius */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better appearance */
+ 
+}
+
+.table {
+  margin: 0;
+  font-size: 16px;
+  border-spacing: 0;
+  width: 100%;
+  border: none;
+}
+
+.table thead th {
+  background-color: #746cc0;
+  color: white;
+  text-align: center;
+  border: none;
+}
+
+.table tbody td {
+  text-align: center;
+  vertical-align: middle;
+  background-color: #696969;
+  
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tbody tr:hover {
+  background-color: #e9ecef;
+ 
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  border: none;
+}
+
+.btn-xs {
+  margin: 2px;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+.e{
+ background-color: #191970;
+}

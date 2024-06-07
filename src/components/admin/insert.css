@@ -1,0 +1,27 @@
+ .bob3 {
+    background-image: url("C:/Users/hajja/projet1/public/a4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Ensure the body takes full height of the viewport */
+  }
+  
+ 
+  
+  .panel {
+    width: 100%;
+  }
+  
+  .panel-body {
+    width: 100%;
+  }
+  
+  form {
+    width: 100%;
+  }
+  body .api {
+    background-image: url("C:/Users/hajja/projet1/public/a4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
